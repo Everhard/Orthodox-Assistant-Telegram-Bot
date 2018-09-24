@@ -1,0 +1,5 @@
+{
+    "require": {
+        "steadfast/telegram-bot-api": "^2.3"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "44d1c1644434deb32bd1d99a5b293978",
+    "content-hash": "81e2c6d57ea729d634b206c06d9729b4",
+    "packages": [
+        {
+            "name": "steadfast/telegram-bot-api",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Everhard/Telegram-Bot-API.git",
+                "reference": "a04d19a0b7fb507884a6647b47a8a15921c52c4b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Everhard/Telegram-Bot-API/zipball/a04d19a0b7fb507884a6647b47a8a15921c52c4b",
+                "reference": "a04d19a0b7fb507884a6647b47a8a15921c52c4b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "codeception/codeception": "*",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TelegramBot\\Api\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Dorokhov",
+                    "email": "andrew@dorohoff.net",
+                    "homepage": "https://dorohoff.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Telegram Bot API written in PHP",
+            "homepage": "https://github.com/Everhard/Telegram-Bot-API",
+            "keywords": [
+                "bot",
+                "bot api",
+                "php",
+                "telegram"
+            ],
+            "time": "2018-09-24 21:26:32"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
